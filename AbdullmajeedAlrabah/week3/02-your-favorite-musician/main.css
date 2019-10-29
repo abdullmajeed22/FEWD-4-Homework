@@ -1,0 +1,14 @@
+body{
+    padding: 100px 200px;
+    background: darkcyan;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    }
+   /* .item {
+    background-color: orange;
+    }
+    */

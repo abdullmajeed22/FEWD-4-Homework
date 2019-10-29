@@ -1,0 +1,62 @@
+body {
+  font-family: 'Nunito', Arial, sans-serif;
+  padding: 0 300px;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+}
+li{
+  display:inline;
+}
+
+.background
+{
+  height: 200px;
+  background-image: url("/img/melbourne.jpg");
+ text-align: center;
+}
+.container1
+{
+  display: flex;
+  justify-content: space-between;
+  background-color: darkgrey;
+ height: 200px;
+ padding: 20px;
+}
+
+.container1 > .item1
+{
+  width: 700px;
+  margin: 10px;
+  background-color:aliceblue;
+  text-align: center;
+}
+
+.container2
+{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.container2 .item2
+{
+  width: 250px;
+  height: 200px;
+}
+.bt
+{
+  display: flex;
+  justify-content:center;
+}
+
+.foot
+{
+  display: flex;
+  justify-content:center;
+  align-items: flex-end;
+  height: 100px;
+  background-color:black;
+  color: azure;
+}
